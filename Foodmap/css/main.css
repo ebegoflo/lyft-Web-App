@@ -1,0 +1,26 @@
+.init{
+  background: #2B2B2B;
+  background-size: cover;
+  color: #e96b0f;
+  height: 100vh;
+  text-align: center;
+}
+
+.mg-top{
+  margin-top: 40vh;
+}
+
+.screen-search {
+  display: none;
+  background: #2B2B2B;
+  color: #e96b0f;
+}
+
+.map{
+
+  margin: 5vh;
+}
+img{
+  width: 100%;
+  height: 200px;
+}

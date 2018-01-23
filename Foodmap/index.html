@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Foodmap</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- inicia pantalla splash -->
+    <section class="container-fluid init" id="screen-init">
+      <div class="row">
+        <div class="col-12 mg-top">
+          <h1 class="text-center">Foodmap</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- inicia pantalla de busqueda -->
+    <section class="container-fluid screen-search">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center">Foodmap</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-12 map">
+          <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15051.670595070173!2d-99.15934723074953!3d19.415963808492375!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1516696387489" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- busqueda -->
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-center">Comida cerca de ti </h5>
+        </div>
+      </div>
+
+      <!-- formulario para igresar datos a buscar -->
+      <div class="row text-center">
+        <form id="search_one" class="form-inline col-12  text-center">
+          <label for="search"></label>
+          <div class="form-group mb-2">
+            <input type="text" class="form-control" id="search" placeholder="Buscar">
+          </div>
+          <i> &#x1F50D;</i>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-4">  <img src="assets/images/china.jpg" alt="">    </div>
+        <div class="col-4"> <img src="assets/images/hamburguesa.jpg" alt="">     </div>
+        <div class="col-4">  <img src="assets/images/pasta.jpg" alt="">    </div>
+      </div>
+      <div class="row">
+        <div class="col-6">  <img src="assets/images/pizza.jpg"alt="">    </div>
+
+        <div class="col-6"><img src="assets/images/tamales.jpg" alt="">    </div>
+      </div>
+    </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/splash.js"></script>
+  <script src="js/app.js"></script>
+  </body>
+</html>
